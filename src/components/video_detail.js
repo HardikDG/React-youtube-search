@@ -9,7 +9,7 @@ class VideoDetail extends Component {
     render() {
         const video = this.props.video;
         console.log("Render: " + this.props.video);
-        var url = "";
+        let url = "";
         if(!this.props.video){
             return <div> Loading... </div>
          } else {
